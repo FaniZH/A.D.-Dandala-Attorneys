@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AD Dandala Attorneys At Law</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="Styles/main.css">
+
+</head>
+<body>
+
+
+<div class="zig-left"></div>
+<div class="zig-right"></div>
+
+
+<!-- ═══ BLOG FULL PAGE ═══ -->
+<div id="blogPage">
+  <div class="blog-page-inner">
+
+    <!-- sticky mini nav -->
+    <div class="blog-nav-strip">
+      <div class="blog-nav-inner">
+        <div class="blog-nav-logo"><span>AD</span> Dandala · Legal Insights</div>
+        <ul class="blog-cats">
+          <li><button class="active" onclick="filterBlog('all',this)">All Articles</button></li>
+          <li><button onclick="filterBlog('property',this)">Property</button></li>
+          <li><button onclick="filterBlog('labour',this)">Labour Law</button></li>
+          <li><button onclick="filterBlog('corporate',this)">Corporate</button></li>
+          <li><button onclick="filterBlog('family',this)">Family Law</button></li>
+          <li><button onclick="filterBlog('criminal',this)">Criminal</button></li>
+        </ul>
+      </div>
+      <button class="nav-burger" id="burgerBtn" aria-label="Open menu">
+      <i class='bx bx-menu'></i>
+    </button>
+    </div>
+
+<!-- blog hero -->
+<div class="blog-hero">
+  <div class="blog-hero-bg"></div>
+
+  <div class="blog-hero-content">
+    <a href="index.html" class="blog-hero-back">
+      <i class='bx bx-arrow-back'></i> Back to Main Site
+    </a>
+
+    <h1 class="blog-hero-title">Legal <em>Insights</em> &amp; Articles</h1>
+  </div>
+</div>
+
+    <!-- articles -->
+    <div class="blog-articles">
+      <div class="blog-articles-inner">
+        <p class="stag">Latest from Our Attorneys</p>
+        <div class="articles-grid" id="articlesGrid">
+
+          <!-- FEATURED -->
+          <div class="article-featured" data-cat="property">
+            <div class="af-img">
+              <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80" alt="Property Law"/>
+            </div>
+            <div class="af-body">
+              <span class="af-cat">Property Law</span>
+              <div class="af-date">March 2026</div>
+              <h2 class="af-title">What Every First-Time Buyer in South Africa Must Know Before Signing</h2>
+              <p class="af-excerpt">Buying property is one of the biggest decisions you will ever make. From transfer duty to bond registration, our attorneys break down the conveyancing process step by step so you know exactly what to expect — and what to watch out for.</p>
+              <button class="af-read">Read Article</button>
+            </div>
+          </div>
+
+          <!-- REGULAR CARDS -->
+          <div class="article-card" data-cat="labour">
+            <div class="ac-img">
+              <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80" alt="Labour Law"/>
+              <span class="ac-cat">Labour Law</span>
+            </div>
+            <div class="ac-body">
+              <div class="ac-date">February 2026</div>
+              <h3 class="ac-title">Unfair Dismissal: Your Rights Under the Labour Relations Act</h3>
+              <p class="ac-excerpt">Facing dismissal? Understand what constitutes an unfair dismissal in South Africa and how to approach the CCMA process effectively.</p>
+              <button class="ac-read">Read Article</button>
+            </div>
+          </div>
+
+          <div class="article-card" data-cat="corporate">
+            <div class="ac-img">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Corporate Law"/>
+              <span class="ac-cat blue">Corporate Law</span>
+            </div>
+            <div class="ac-body">
+              <div class="ac-date">February 2026</div>
+              <h3 class="ac-title">Shareholder Agreements: Why Every Business Needs One from Day One</h3>
+              <p class="ac-excerpt">Without a proper shareholder agreement, even the closest business partners can find themselves in costly disputes. Here is what yours must cover.</p>
+              <button class="ac-read">Read Article</button>
+            </div>
+          </div>
+
+          <div class="article-card" data-cat="family">
+            <div class="ac-img">
+              <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=600&q=80" alt="Family Law"/>
+              <span class="ac-cat red">Family Law</span>
+            </div>
+            <div class="ac-body">
+              <div class="ac-date">January 2026</div>
+              <h3 class="ac-title">Divorce in South Africa: Understanding Your Options and Rights</h3>
+              <p class="ac-excerpt">From community of property to antenuptial contracts, divorce proceedings differ greatly depending on your marital regime. Our attorneys explain what to expect.</p>
+              <button class="ac-read">Read Article</button>
+            </div>
+          </div>
+
+          <div class="article-card" data-cat="criminal">
+            <div class="ac-img">
+              <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=600&q=80" alt="Criminal Law"/>
+              <span class="ac-cat">Criminal Law</span>
+            </div>
+            <div class="ac-body">
+              <div class="ac-date">January 2026</div>
+              <h3 class="ac-title">Bail Applications: What Happens After an Arrest in South Africa?</h3>
+              <p class="ac-excerpt">Being arrested is a frightening experience. This guide explains the bail application process, your constitutional rights, and when to call an attorney immediately.</p>
+              <button class="ac-read">Read Article</button>
+            </div>
+          </div>
+
+          <div class="article-card" data-cat="property">
+            <div class="ac-img">
+              <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&q=80" alt="Wills and Estates"/>
+              <span class="ac-cat yellow">Wills &amp; Estates</span>
+            </div>
+            <div class="ac-body">
+              <div class="ac-date">December 2025</div>
+              <h3 class="ac-title">Why You Need a Will — And What Happens If You Die Without One</h3>
+              <p class="ac-excerpt">Intestate succession can leave your loved ones in a difficult position. Our estate attorneys walk you through why drafting a will is one of the most important things you can do.</p>
+              <button class="ac-read">Read Article</button>
+            </div>
+          </div>
+
+          <div class="article-card" data-cat="labour">
+            <div class="ac-img">
+              <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80" alt="Employment Contracts"/>
+              <span class="ac-cat">Labour Law</span>
+            </div>
+            <div class="ac-body">
+              <div class="ac-date">November 2025</div>
+              <h3 class="ac-title">Fixed-Term Contracts vs Permanent Employment: Know the Difference</h3>
+              <p class="ac-excerpt">Many employees are unaware of the legal distinctions between fixed-term and permanent employment. This article clarifies the key rights and obligations of each.</p>
+              <button class="ac-read">Read Article</button>
+            </div>
+          </div>
+
+          <div class="article-card" data-cat="corporate">
+            <div class="ac-img">
+              <img src="https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=600&q=80" alt="Debt Recovery"/>
+              <span class="ac-cat blue">Debt Recovery</span>
+            </div>
+            <div class="ac-body">
+              <div class="ac-date">October 2025</div>
+              <h3 class="ac-title">Recovering Outstanding Debt: When to Involve Your Attorney</h3>
+              <p class="ac-excerpt">Many businesses wait too long before taking legal steps to recover money owed. Here is a practical guide on when and how to escalate a debt recovery matter.</p>
+              <button class="ac-read">Read Article</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- newsletter -->
+    <div class="blog-newsletter">
+      <div class="blog-newsletter-inner">
+        <div>
+          <h2 class="bn-title">Stay Informed</h2>
+          <p class="bn-sub">Subscribe to receive the latest legal insights, news and updates from AD Dandala Attorneys directly in your inbox.</p>
+        </div>
+        <div>
+          <div class="bn-form">
+            <input class="bn-input" type="email" placeholder="Your email address"/>
+            <button class="bn-btn" onclick="alert('Thank you for subscribing!')">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-footer">
+      <div class="blog-footer-copy">&copy; <span class="blog-year"></span> AD Dandala Attorneys At Law. All rights reserved.</div>
+    </div>
+
+  </div><!-- /blog-page-inner -->
+</div><!-- /blogPage -->
+
+<!-- MOBILE MENU OVERLAY -->
+<div class="mobile-menu" id="mobileMenu">
+  <!-- X close button -->
+  <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+    <i class='bx bx-x'></i>
+  </button>
+  <a href="#about"        onclick="closeMobile()">About</a>
+  <a href="#practice"     onclick="closeMobile()">Practice Areas</a>
+  <a href="#team"         onclick="closeMobile()">Team</a>
+  <a href="#process"      onclick="closeMobile()">Our Process</a>
+  <a href="#blog-preview" onclick="closeMobile()">Blog</a>
+  <a href="#contact" class="mob-cta" onclick="closeMobile()">Consult Us</a>
+</div>
+
+<!-- SCROLL TO TOP -->
+<button id="scrollTop" aria-label="Scroll to top"><i class='bx bx-chevron-up'></i></button>
+
+<script>
+/* Year */
+const yr = new Date().getFullYear();
+document.getElementById('fyear').textContent = yr;
+document.querySelectorAll('.blog-year').forEach(el => el.textContent = yr);
+
+/* Scroll to top */
+const scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', () => { scrollBtn.classList.toggle('show', window.scrollY > 400); });
+scrollBtn.addEventListener('click', () => { window.scrollTo({top:0,behavior:'smooth'}); });
+
+/* Burger menu */
+const burgerBtn   = document.getElementById('burgerBtn');
+const mobileMenu  = document.getElementById('mobileMenu');
+const mobileClose = document.getElementById('mobileClose');
+burgerBtn.addEventListener('click',   () => mobileMenu.classList.add('open'));
+mobileClose.addEventListener('click', () => mobileMenu.classList.remove('open'));
+function closeMobile(){ mobileMenu.classList.remove('open'); }
+
+/* Blog page open / close */
+function openBlog(){
+  document.getElementById('blogPage').classList.add('open');
+  document.getElementById('blogPage').scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+}
+function closeBlog(){
+  document.getElementById('blogPage').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* Blog category filter */
+function filterBlog(cat, btn){
+  document.querySelectorAll('.blog-cats button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('#articlesGrid [data-cat]').forEach(card => {
+    if(cat === 'all' || card.dataset.cat === cat){
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+/* Scroll animations */
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('on'); obs.unobserve(e.target); } });
+},{threshold:0.1});
+document.querySelectorAll('.anim').forEach(el => obs.observe(el));
+
+/* Submit */
+function handleSubmit(e){ e.preventDefault(); alert('Thank you — we will be in touch shortly.'); }
+</script>
+</body>
+</html>

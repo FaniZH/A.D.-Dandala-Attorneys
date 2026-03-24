@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AD Dandala Attorneys At Law</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="Styles/main.css"/>
+</head>
+<body>
+
+<!-- FIXED ZIGZAG SIDE STRIPS -->
+<div class="zig-left"></div>
+<div class="zig-right"></div>
+
+<!-- MOBILE MENU OVERLAY -->
+<div class="mobile-menu" id="mobileMenu">
+  <!-- X close button -->
+  <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+    <i class='bx bx-x'></i>
+  </button>
+  <a href="#about"        onclick="closeMobile()">About</a>
+  <a href="#practice"     onclick="closeMobile()">Practice Areas</a>
+  <a href="#team"         onclick="closeMobile()">Team</a>
+  <a href="#process"      onclick="closeMobile()">Our Process</a>
+  <a href="#blog-preview" onclick="closeMobile()">Blog</a>
+  <a href="#contact" class="mob-cta" onclick="closeMobile()">Consult Us</a>
+</div>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <span>AD Dandala Attorneys At Law &mdash; Durban, KwaZulu-Natal</span>
+  <div class="topbar-right">
+    <a href="tel:0312020080">031 202 0080</a>
+    <a href="mailto:info@dandalaattorneys.co.za">info@dandalaattorneys.co.za</a>
+  </div>
+</div>
+
+<!-- NAV — styled to match blog nav (compact height, underline hover) -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-badge">AD</div>
+      <div class="nav-logo-text">
+        <div class="nav-logo-main">Dandala Attorneys</div>
+        <span class="nav-logo-sub">At Law &middot; Durban</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#practice">Practice Areas</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#process">Our Process</a></li>
+      <li><a href="#blog-preview">Blog</a></li>
+      <li><a href="#contact" class="nav-cta">Consult Us</a></li>
+    </ul>
+    <button class="nav-burger" id="burgerBtn" aria-label="Open menu">
+      <i class='bx bx-menu'></i>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-left">
+    <div class="hero-tag">Attorneys At Law &middot; South Africa</div>
+    <h1 class="hero-title">
+      <strong>Straight Talk.</strong><br>
+      <em>Decisive</em><br>
+      Legal Counsel.
+    </h1>
+    <p class="hero-body">"We pursue your issues head-on, cut through the confusion, and find simple solutions that help you succeed."</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-teal">Book a Consultation</a>
+      <a href="#practice" class="btn-ghost-w">Our Services</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-stripes">
+      <div class="hs hs1"></div><div class="hs hs2"></div><div class="hs hs3"></div>
+      <div class="hs hs4"></div><div class="hs hs5"></div><div class="hs hs6"></div>
+    </div>
+    <ul class="hero-values">
+      <li class="hv"><span class="hv-num">01</span> Straight talk &mdash; always, no legalese</li>
+      <li class="hv"><span class="hv-num">02</span> Multidisciplinary legal teams</li>
+      <li class="hv"><span class="hv-num">03</span> Efficient &amp; effective outcomes</li>
+      <li class="hv"><span class="hv-num">04</span> Long-term client relationships</li>
+      <li class="hv"><span class="hv-num">05</span> Diverse, loyal client base</li>
+    </ul>
+    <div class="hero-contact">
+      <div class="hero-contact-label">Call Our Office</div>
+      <div class="hero-contact-num">031 202 0080</div>
+    </div>
+  </div>
+</section>
+
+<div class="zig-divider"></div>
+
+<!-- RIBBON -->
+<div class="ribbon">
+  <div class="ribbon-inner">
+    <div class="ritem"><div class="rnum">20+</div><div class="rlabel">Years of Practice</div></div>
+    <div class="ritem"><div class="rnum">500+</div><div class="rlabel">Clients Served</div></div>
+    <div class="ritem"><div class="rnum">9</div><div class="rlabel">Areas of Law</div></div>
+    <div class="ritem"><div class="rnum">KZN</div><div class="rlabel">Based in Durban</div></div>
+  </div>
+</div>
+
+<div class="zig-divider light"></div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <div class="color-stripes">
+          <div class="cs" style="background:var(--teal1)"></div>
+          <div class="cs" style="background:var(--red)"></div>
+          <div class="cs" style="background:var(--yellow)"></div>
+          <div class="cs" style="background:var(--blue)"></div>
+          <div class="cs" style="background:var(--teal2)"></div>
+        </div>
+        <p class="stag">Who We Are</p>
+        <h2 class="sh">A Firm Built on <em>Straight Talk</em></h2>
+        <div class="about-body" style="margin-top:2rem;">
+          <p>At A.D. Dandala Attorneys At Law, <strong>straight talk guides everything we do</strong>. It is how we converse with clients, colleagues, courts and even our adversaries. It means we pursue issues head-on, rather than detouring into legalese.</p>
+          <p>We cut through the confusion and find simple solutions to help our clients succeed. We build the best team for each client by using a <strong>multidisciplinary approach</strong> that combines knowledge, experience and individual strengths.</p>
+          <div class="about-pull">"We cut through the confusion and find simple solutions. No legalese, no detours &mdash; just results."</div>
+          <p>Our clients obtain legal guidance that is efficient and effective. This way of practising has garnered the firm a diverse group of clients &mdash; many of whom have entrusted their legal issues to us for a very long time.</p>
+        </div>
+        <div style="margin-top:2.5rem;"><a href="#contact" class="btn-teal">Schedule a Consultation</a></div>
+      </div>
+      <div class="about-aside anim">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=600&q=80" alt="Legal consultation"/>
+          <div class="about-img-caption">Trusted Legal Counsel Since Day One</div>
+        </div>
+        <div class="acard"><h3>Our Mission</h3><p>Expert, personalised legal guidance delivered with clarity, efficiency and integrity. We exist to serve your interests, not to impress you with complexity.</p></div>
+        <div class="acard"><h3>Our Values</h3><p>Honesty. Directness. Excellence. The best legal advice is advice you can understand and act on. We hold ourselves to the highest standards in every matter.</p></div>
+        <div class="acard"><h3>Our Commitment</h3><p>Long-term relationships built on trust. Many clients have relied on AD Dandala Attorneys for years &mdash; through milestones, growth and complex challenges alike.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="zig-divider white"></div>
+
+<!-- PRACTICE AREAS -->
+<section class="practice" id="practice">
+  <div class="container">
+    <div class="color-stripes">
+      <div class="cs" style="background:var(--teal1)"></div>
+      <div class="cs" style="background:var(--red)"></div>
+      <div class="cs" style="background:var(--yellow)"></div>
+      <div class="cs" style="background:var(--blue)"></div>
+      <div class="cs" style="background:var(--teal2)"></div>
+    </div>
+    <div class="phead">
+      <div>
+        <p class="stag">What We Do</p>
+        <h2 class="sh">Areas of <em>Legal Practice</em></h2>
+      </div>
+      <p class="psub">Our team brings expertise across a wide range of disciplines. Whatever your matter &mdash; personal, family or commercial &mdash; we guide you through it with clarity and confidence.</p>
+    </div>
+    <div class="pgrid">
+      <div class="pcard anim"><div class="pcard-zig"></div><div class="pcard-n">01</div><h3>Property &amp; Conveyancing</h3><p>Residential and commercial property transfers, bond registrations, lease agreements and property dispute resolution.</p><div class="pcard-more">Enquire</div></div>
+      <div class="pcard anim"><div class="pcard-zig"></div><div class="pcard-n">02</div><h3>Corporate &amp; Commercial Law</h3><p>Company formations, shareholder agreements, commercial contracts, mergers, acquisitions and corporate governance.</p><div class="pcard-more">Enquire</div></div>
+      <div class="pcard anim"><div class="pcard-zig"></div><div class="pcard-n">03</div><h3>Labour &amp; Employment Law</h3><p>Workplace disputes, unfair dismissal, CCMA representation and labour compliance for employers and employees.</p><div class="pcard-more">Enquire</div></div>
+      <div class="pcard anim"><div class="pcard-zig"></div><div class="pcard-n">04</div><h3>Civil Litigation</h3><p>Skilled representation in civil disputes before the Magistrate's Court and High Court &mdash; strategic, precise, determined.</p><div class="pcard-more">Enquire</div></div>
+      <div class="pcard anim"><div class="pcard-zig"></div><div class="pcard-n">05</div><h3>Family Law</h3><p>Divorce, maintenance, child custody and guardianship handled with sensitivity, discretion and your family's best interests at heart.</p><div class="pcard-more">Enquire</div></div>
+      <div class="pcard anim"><div class="pcard-zig"></div><div class="pcard-n">06</div><h3>Wills, Trusts &amp; Estates</h3><p>Estate planning, drafting of wills, administration of deceased estates and the establishment of trusts.</p><div class="pcard-more">Enquire</div></div>
+      <div class="pcard anim"><div class="pcard-zig"></div><div class="pcard-n">07</div><h3>Debt Recovery</h3><p>Effective recovery of outstanding debts on behalf of individuals and businesses &mdash; from letter of demand to court enforcement.</p><div class="pcard-more">Enquire</div></div>
+      <div class="pcard anim"><div class="pcard-zig"></div><div class="pcard-n">08</div><h3>Criminal Law</h3><p>Vigorous and ethical defence in criminal proceedings &mdash; your rights protected and your case argued with skill at every stage.</p><div class="pcard-more">Enquire</div></div>
+      <div class="pcard anim"><div class="pcard-zig"></div><div class="pcard-n">09</div><h3>Insurance &amp; Personal Injury</h3><p>Road accident claims, personal injury and insurance disputes &mdash; helping you recover the compensation you deserve.</p><div class="pcard-more">Enquire</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="zig-divider"></div>
+
+<!-- WHY US -->
+<section class="why" id="why">
+  <div class="container">
+    <p class="stag">Our Approach</p>
+    <h2 class="sh white" style="margin-bottom:3rem;">Why Clients Choose <em>AD Dandala</em></h2>
+    <div class="why-inner">
+      <div class="why-grid">
+        <div class="witem anim"><div class="wnum">01</div><h3>Straight Talk, Always</h3><p>Plain language over legalese. You will always know exactly where you stand, what your options are and what to expect &mdash; no jargon, no confusion.</p></div>
+        <div class="witem anim"><div class="wnum">02</div><h3>Multidisciplinary Teams</h3><p>We build the ideal team for every client matter, combining the right knowledge, experience and individual strengths for a comprehensive, tailored solution.</p></div>
+        <div class="witem anim"><div class="wnum">03</div><h3>Efficiency &amp; Effectiveness</h3><p>We respect your time and resources. Our goal is always the most direct route to the best outcome &mdash; focused, results-driven counsel without unnecessary delay.</p></div>
+        <div class="witem anim"><div class="wnum">04</div><h3>Loyal, Long-term Relationships</h3><p>Many clients have trusted us for years. We earn and nurture that loyalty through consistent, thoughtful service that puts your interests at the centre of everything.</p></div>
+      </div>
+      <div class="why-img anim">
+        <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=600&q=80" alt="Legal team at work"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="zig-divider light"></div>
+
+<!-- TEAM -->
+<section class="team" id="team">
+  <div class="container">
+    <p class="stag">The People Behind Your Case</p>
+    <h2 class="sh">Meet Our <em>Legal Team</em></h2>
+    <div class="tgrid">
+      <div class="tcard anim">
+        <div class="tcard-photo">
+          <img src="https://images.unsplash.com/photo-1560250097-0dc05ae8aeef?w=400&q=80" alt="AD Dandala"/>
+          <div class="tcard-photo-overlay"></div>
+        </div>
+        <div class="tcard-body">
+          <div class="tcard-name">A.D. Dandala</div>
+          <div class="tcard-role">Founding Attorney</div>
+          <p class="tcard-bio">A respected practitioner with deep experience across commercial law, civil litigation and property matters. Known for a direct, strategic approach that delivers real results.</p>
+        </div>
+      </div>
+      <div class="tcard anim">
+        <div class="tcard-photo">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Senior Associate"/>
+          <div class="tcard-photo-overlay"></div>
+        </div>
+        <div class="tcard-body">
+          <div class="tcard-name">Senior Associate</div>
+          <div class="tcard-role">Labour &amp; Employment Law</div>
+          <p class="tcard-bio">Specialises in employment disputes, CCMA representation and labour compliance. A practical, solution-driven advocate for employers and employees alike.</p>
+        </div>
+      </div>
+      <div class="tcard anim">
+        <div class="tcard-photo">
+          <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&q=80" alt="Associate Attorney"/>
+          <div class="tcard-photo-overlay"></div>
+        </div>
+        <div class="tcard-body">
+          <div class="tcard-name">Associate Attorney</div>
+          <div class="tcard-role">Family Law &amp; Estates</div>
+          <p class="tcard-bio">Handles family law and estate planning with exceptional sensitivity. Dedicated to guiding clients through life's most personal legal challenges with clarity and care.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="zig-divider"></div>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <p class="stag">Client Testimonials</p>
+    <h2 class="sh white">What Our Clients <em>Say</em></h2>
+    <div class="tq-grid">
+      <div class="tq anim"><div class="tq-mark">"</div><p class="tq-text">AD Dandala handled our property transfer with exceptional professionalism. They explained every step clearly &mdash; straight answers, no jargon.</p><div class="tq-author">&mdash; Property Client, Durban</div></div>
+      <div class="tq anim"><div class="tq-mark">"</div><p class="tq-text">I have been a client for many years. Their consistent, thoughtful approach to my business legal matters has been invaluable. I trust them completely.</p><div class="tq-author">&mdash; Commercial Client, KwaZulu-Natal</div></div>
+      <div class="tq anim"><div class="tq-mark">"</div><p class="tq-text">During a difficult divorce, the team was compassionate, direct and utterly professional. They fought for the best outcome for my family without dragging things out.</p><div class="tq-author">&mdash; Family Law Client, Durban</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="zig-divider white"></div>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:0.5rem;">
+      <p class="stag" style="justify-content:center;">How We Work</p>
+      <h2 class="sh" style="text-align:center;">Our <em>Four-Step Process</em></h2>
+    </div>
+    <div class="psteps">
+      <div class="pstep anim"><div class="pstep-circle">1</div><h3>Initial Consultation</h3><p>We listen carefully, ask the right questions and give you an honest, straightforward assessment of your position.</p></div>
+      <div class="pstep anim"><div class="pstep-circle">2</div><h3>Strategy &amp; Planning</h3><p>We build the right team for your matter and develop a focused strategy to achieve your objectives efficiently.</p></div>
+      <div class="pstep anim"><div class="pstep-circle">3</div><h3>Action &amp; Execution</h3><p>We pursue your matter with determination, keeping you informed at every step and adapting as needed.</p></div>
+      <div class="pstep anim"><div class="pstep-circle">4</div><h3>Resolution &amp; Beyond</h3><p>We achieve the best possible outcome and remain available for ongoing support as your needs evolve.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="zig-divider"></div>
+
+<!-- BLOG PREVIEW -->
+<section class="blog-preview" id="blog-preview">
+  <div class="container">
+    <div class="color-stripes" style="margin-bottom:1.5rem;">
+      <div class="cs" style="background:var(--teal1)"></div>
+      <div class="cs" style="background:var(--red)"></div>
+      <div class="cs" style="background:var(--yellow)"></div>
+      <div class="cs" style="background:var(--blue)"></div>
+      <div class="cs" style="background:var(--teal2)"></div>
+    </div>
+    <p class="stag">Legal Insights</p>
+    <h2 class="sh">From Our <em>Attorneys</em></h2>
+    <div class="blog-grid">
+      <div class="bcard anim">
+        <div class="bcard-img">
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80" alt="Property Law"/>
+          <span class="bcard-cat">Property Law</span>
+        </div>
+        <div class="bcard-body">
+          <div class="bcard-date">March 2026</div>
+          <h3 class="bcard-title">What Every First-Time Buyer Must Know Before Signing</h3>
+          <p class="bcard-excerpt">From transfer duty to bond registration, our attorneys break down the conveyancing process step by step.</p>
+          <button class="bcard-more" onclick="openBlog()">Read More</button>
+        </div>
+      </div>
+      <div class="bcard anim">
+        <div class="bcard-img">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80" alt="Labour Law"/>
+          <span class="bcard-cat">Labour Law</span>
+        </div>
+        <div class="bcard-body">
+          <div class="bcard-date">February 2026</div>
+          <h3 class="bcard-title">Unfair Dismissal: Your Rights Under the Labour Relations Act</h3>
+          <p class="bcard-excerpt">Facing dismissal? Understand what constitutes an unfair dismissal in South Africa and how to approach the CCMA process.</p>
+          <button class="bcard-more" onclick="openBlog()">Read More</button>
+        </div>
+      </div>
+      <div class="bcard anim">
+        <div class="bcard-img">
+          <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=600&q=80" alt="Family Law"/>
+          <span class="bcard-cat" style="background:var(--red)">Family Law</span>
+        </div>
+        <div class="bcard-body">
+          <div class="bcard-date">January 2026</div>
+          <h3 class="bcard-title">Divorce in South Africa: Understanding Your Options and Rights</h3>
+          <p class="bcard-excerpt">From community of property to antenuptial contracts, divorce proceedings differ greatly depending on your marital regime.</p>
+          <button class="bcard-more" onclick="openBlog()">Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="blog-cta">
+      <button class="btn-teal" onclick="openBlog()">View All Articles &rarr;</button>
+    </div>
+  </div>
+</section>
+
+<div class="zig-divider"></div>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <p class="stag">Get In Touch</p>
+    <h2 class="sh white">Let's Discuss <em>Your Matter</em></h2>
+    <div class="cgrid">
+      <div class="cinfo">
+        <div class="ci"><div class="ci-label">Telephone</div><div class="ci-val"><a href="tel:0312020080">031 202 0080</a></div></div>
+        <div class="ci"><div class="ci-label">Email</div><div class="ci-val"><a href="mailto:info@dandalaattorneys.co.za">info@dandalaattorneys.co.za</a></div></div>
+        <div class="ci"><div class="ci-label">Location</div><div class="ci-val">Durban, KwaZulu-Natal<br/>South Africa</div></div>
+        <div class="ci"><div class="ci-label">Office Hours</div><div class="ci-val">Monday &ndash; Friday<br/>08:00 &ndash; 17:00<br/><span style="opacity:0.45;font-size:0.9rem;">Consultations by appointment</span></div></div>
+      </div>
+      <form class="cform" onsubmit="handleSubmit(event)">
+        <div class="crow">
+          <div class="cgroup"><label>First Name</label><input type="text" placeholder="First name"/></div>
+          <div class="cgroup"><label>Last Name</label><input type="text" placeholder="Last name"/></div>
+        </div>
+        <div class="crow">
+          <div class="cgroup"><label>Email Address</label><input type="email" placeholder="your@email.com"/></div>
+          <div class="cgroup"><label>Phone Number</label><input type="tel" placeholder="+27 00 000 0000"/></div>
+        </div>
+        <div class="cgroup">
+          <label>Area of Law</label>
+          <select>
+            <option value="">Select a practice area</option>
+            <option>Property &amp; Conveyancing</option>
+            <option>Corporate &amp; Commercial Law</option>
+            <option>Labour &amp; Employment Law</option>
+            <option>Civil Litigation</option>
+            <option>Family Law</option>
+            <option>Wills, Trusts &amp; Estates</option>
+            <option>Debt Recovery</option>
+            <option>Criminal Law</option>
+            <option>Insurance &amp; Personal Injury</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="cgroup">
+          <label>Your Message</label>
+          <textarea placeholder="Briefly describe your matter so we can direct your enquiry to the right attorney..."></textarea>
+        </div>
+        <div><button type="submit" class="btn-teal">Send Enquiry &rarr;</button></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="flm">
+      <div class="fl-name"><span>AD</span> Dandala Attorneys</div>
+      <div class="fl-sub">Attorneys At Law &middot; Durban, South Africa</div>
+      <div class="fl-zig"></div>
+      <p class="fl-about">Straight talk. Expert counsel. Lasting results. Serving clients across KwaZulu-Natal with dedication, integrity and a commitment to excellence in every matter we handle.</p>
+    </div>
+    <div class="fcol"><h4>Practice Areas</h4><ul>
+      <li><a href="#practice">Property Law</a></li>
+      <li><a href="#practice">Corporate Law</a></li>
+      <li><a href="#practice">Labour Law</a></li>
+      <li><a href="#practice">Civil Litigation</a></li>
+      <li><a href="#practice">Family Law</a></li>
+      <li><a href="#practice">Criminal Law</a></li>
+    </ul></div>
+    <div class="fcol"><h4>Quick Links</h4><ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#team">Our Team</a></li>
+      <li><a href="#process">Our Process</a></li>
+      <li><a href="#blog-preview">Blog</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul></div>
+    <div class="fcol"><h4>Contact</h4><ul>
+      <li><a href="tel:0312020080">031 202 0080</a></li>
+      <li><a href="mailto:info@dandalaattorneys.co.za">info@dandalaattorneys.co.za</a></li>
+      <li><a href="#contact">Durban, KZN</a></li>
+      <li><a href="#contact">Mon&ndash;Fri 08:00&ndash;17:00</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <div class="fcopy">&copy; <span id="fyear"></span> AD Dandala Attorneys At Law. All rights reserved.| Designed by ZH Madlala</div>
+    <div class="fcopy">Admitted Attorneys of the High Court of South Africa</div>
+  </div>
+</footer>
+
+<!-- SCROLL TO TOP -->
+<button id="scrollTop" aria-label="Scroll to top"><i class='bx bx-chevron-up'></i></button>
+
+<script src="JS/main.js"></script>
+</body>
+</html>
